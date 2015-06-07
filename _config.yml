@@ -1,0 +1,21 @@
+# Site settings
+title: Cynthia Martinez
+email: cynthia.mtnz@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is my website that will contain my programming projects, electronic projects,
+  video projects, and graphic design projects. Blog posts with tutorials and research
+  will also be provided.
+
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+facebook_username: cindycyn
+twitter_username: piggirlcindy
+github_username:  cm00100
+
+
+
+# Build settings
+markdown: redcarpet
+
+exclude: ['README.md']
+
