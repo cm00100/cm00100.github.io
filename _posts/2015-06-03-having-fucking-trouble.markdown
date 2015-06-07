@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Having fucking trouble."
-permalink: /cynthiam/having-fucking-trouble.html
+permalink: /blog/having-fucking-trouble.html
 ---
 Hello!! So I've been building this shit and I didn't think it was going to be easy as I thought.
 

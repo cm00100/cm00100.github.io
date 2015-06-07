@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Trying to figure this shit out."
-permalink: /cynthiam/trying-to-figure-this-shit-out.html
+permalink: /blog/trying-to-figure-this-shit-out.html
 ---
 Hi everyone, I'm trying to build this shit. It's going to take me a while to design this shit, but I'll get it completed eventually.
 
