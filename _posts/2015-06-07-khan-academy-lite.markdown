@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Khan Academy Lite Project"
 permalink: /blog/khan-academy-lite.html
 ---
 
