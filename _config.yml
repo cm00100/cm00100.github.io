@@ -6,10 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
   video projects, and graphic design projects. Blog posts with tutorials and research
   will also be provided.
 
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://cm00100.github.io" # the base hostname & protocol for your site
 
-facebook_username: cindycyn
-twitter_username: piggirlcindy
 github_username:  cm00100
 
 
