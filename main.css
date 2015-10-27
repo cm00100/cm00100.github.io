@@ -1,0 +1,32 @@
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 30px;
+
+}
+
+.wrap{
+	max-width: 800px;
+	max-height: 500px;
+	margin:200px auto;
+
+
+}
+
+.type-wrap{
+	margin:10px auto;
+	padding:30px;
+	color: #fff;
+	background:#000;
+	
+	border-radius:1px;
+	border:#CCC 2px solid;
+}
+

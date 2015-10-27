@@ -18,15 +18,19 @@ permalink: /blog/
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
                 <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
                 {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
-                <div class="hline"></div>
+                <p><a href="{{ post.url | prepend: site.baseurl }}"><strong>[Read More]</strong></a></p>
+                <hr>
 
                 <div class="spacing"></div>
             {% endfor %}
+            
+        
+        <p class="rss-subscribe">Subscribe<a href="{{ "/feed.xml" | prepend: site.baseurl }}"><strong> via RSS</strong></a></p>
+
 
         </div><! --/col-lg-8 -->
 
-        {% include sidebar.html %}
+
 
     </div><! --/row -->
 </div><! --/container -->

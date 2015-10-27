@@ -1,0 +1,62 @@
+---
+layout: projects
+title: Projects
+permalink: /projects/
+---
+
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 centered">
+            <h2>Database Systems</h2>
+            <br>
+            <hr>
+        </div>   
+    </div>
+</div><! --/container -->
+
+
+ 
+
+<style>
+     
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}   
+     
+  
+    
+ @media(min-width: 800px) {
+  .code li {
+    width: 31%;
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+  }
+
+   
+
+</style>
+
+
+
+<div class="container mtb">
+    <div class="row">
+       <div class="col-lg-12">
+        <ul class='code'>
+            {% assign code = site.code | reverse %}
+            {% for post in site.categories['code'] | limit: 3 %}
+            <li>
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+              <a href="{{ post.url | prepend: site.baseurl }}"><img class="img-responsive" src="{{ "/assets/img/code/" | prepend: site.baseurl }}{{ post.img }}"></a>
+              
+                          
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+       </div>
+    </div>
+</div>
