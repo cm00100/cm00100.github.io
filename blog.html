@@ -1,36 +1,27 @@
 ---
-layout: blog
+layout: page
 title: Blog
 permalink: /blog/
 ---
-
-<div class="container mtb">
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
     <div class="row">
-
-        <! -- BLOG POSTS LIST -->
-        <div class="col-lg-8">
-
-            {% for post in site.categories['blog'] %}
-                <! -- Blog Post -->
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
-                </a>    
-                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
-                {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}"><strong>[Read More]</strong></a></p>
-                <hr>
-
-                <div class="spacing"></div>
-            {% endfor %}
-            
-        
-        <p class="rss-subscribe">Subscribe<a href="{{ "/feed.xml" | prepend: site.baseurl }}"><strong> via RSS</strong></a></p>
-
-
-        </div><! --/col-lg-8 -->
-
-
-
-    </div><! --/row -->
-</div><! --/container -->
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Blog</h1>
+          <p>Tutorials, progress, and etc.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for post in site.posts %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <p class="post-date">{{ post.date | date_to_long_string }}</p>
+  <p>
+    {{ post.content | strip_html | truncatewords: 50 }}
+  </p>
+</div>
+{% endfor %}

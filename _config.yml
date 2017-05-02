@@ -1,32 +1,28 @@
 
-# Site settings
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+
+
 title: Cynthia Martinez
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-url: "http://www.cymartinez.com"
-
-# Build settings
-markdown: redcarpet
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
-exclude: ['README.md']
-
-
-  
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-
-
- 
-    
+subtitle: "Cynthia Martinez - Portfolio"
+url: "https://www.cymartinez.com"
+baseurl: ""
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
 
 email: cynthia.mtnz@gmail.com
+markdown: kramdown
 
-
-
-
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-
-
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
 
 
