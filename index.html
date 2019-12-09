@@ -1,100 +1,196 @@
----
-layout: page
-title: Cynthia Martinez
-permalink: /
----
+<!DOCTYPE html>
 
+<html>
 
+  <head>
+  	<meta charset="utf-8">
+  	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='https://fonts.googleapis.com/css?family=Lato:100, 300, 900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-<script src="js/typed.js" type="text/javascript"></script>
-	
-	<script>
-	// Typed
-	
-    $(function(){
-
-        $("#typed").typed({
-            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
-            stringsElement: $('#typed-strings'),
-            typeSpeed: 30,
-            backDelay: 500,
-            loop: false,
-            contentType: 'html', // or text
-            // defaults to false for infinite loop
-            loopCount: false,
-            callback: function(){ foo(); },
-            resetCallback: function() { newTyped(); }
-        });
-
-        $(".reset").click(function(){
-            $("#typed").typed('reset');
-        });
-
-    });
-
-    function newTyped(){ /* A new typed object */ }
-
-    function foo(){ console.log("Callback"); }
-
-    </script>
-
-
-
-
-
-
-
-
-<!-- Slider Start -->
-<section id="slider">
- 
-    <div class="sliderRow">
-      <div class="col-md-10 col-md-offset-2">
-        <div class="block">
-          <h1 class="animated fadeInUp">
-
-             <div id="typed-strings">
-                <p>Hello World!</p>
+    
    
-            </div>
-            <span id="typed" style="white-space:pre;"></span>
-		</div>
-
-		  </h1>
-
-
-        </div>
-
+  <div class="mobile-container">
+    <div id="navbar-wrapper">
+      <nav id="navbar">
+        <a href="#main" id="main-nav">Main</a>
+        <a href="#projects" id="projects-nav">Projects</a>
+        <a href="#contact" id="contact-nav">Contact</a>
+      </nav>
     </div>
   </div>
-</section>
-
-
-
-
-
-	<div class="codeSection">
-    <div class="codeContainer">
-	
-	<code>
-		<font color="white">
-			<p>Name: Cynthia Martinez</p>
-			
-			<p>University: California State University, Monterey Bay</p>
-											
-			<p>Major: Computer Science</p>
-										
-			<p>Hobbies: Computing, programming, designing, video games, toys, cosmetics, strength training, learning, and family/friends.</p>
-			
-			<p>Favorite Programming Language: Java!</p>
-		</font>
-		
-		<font color="green"><strong><p>Email: cynthia.mtnz@gmail.com</p></strong></font>
-
-	</code>				
-
+  </head>
+  
+  
+   <body>
+    <div id="main">
+        <img id="avatar" src="img/avatar.png" alt=""></img>
+        <p>
+        
+      
+          
+          <!----- Type writer intro ----->
+          
+    <p id="typewrite-intro"></p>
+    <a href="#projects"><button id="work-button">View My Work</button></a>
+   
+          <!-----
+          <font color="black"><</font> Hello World! I am Cynthia <font color="black">/></font><br>
+          <font color="black">Web Developer</font>
+       --->
     </div>
-	</div>
+    
+    <div id="projects">
+       
+          <div id="projects-title"><font color="#6709D3"><</font> Projects <font color="#6709D3">/></font></div><p>
+
+
+            <!-- Portfolio Gallery Grid -->
+  
+      
+ 
+           
+<div class="container">
+ 
+  <div class="row row-no-gutters">
+    <div class="col-sm">3D Solar System Simulator<p><p><img src="https://i.ibb.co/YQFLTDB/solarsystem3dthumbnail.png" width="100%"alt="solarsystem3dthumbnail" border="0"></a><p><p>
+      
+  
+     <a href="https://cmartinez-solarsystemsimulator.herokuapp.com" target="_blank"> <button class="demo-button">Demo</button></a> </div>
+    <div class="col-sm">C++ Documentation<p><p><img src="https://i.ibb.co/w6v0S5C/cplusdoc.png" width="100%" alt="C++ Documentation"><p><a href="https://codepen.io/cm_1/pen/OJLYVWw" target="_blank"> <button class="demo-button">Demo</button></a> </div>
+     <div class="col-sm">Record Shop Database<p><p><img src="https://i.ibb.co/wh6NMPW/recordshop2.png" width="100%" alt="C++ Documentation"><p><a href="https://cymartinez-cst336.herokuapp.com/finalproject/index.php" target="_blank"> <button class="demo-button">Demo</button></a></div>
+  </div>
+  <p>
+  <div class="row">
+    <div class="col-sm" >Blue VS Pink<p><p><img src="img/bluepink.png" width="100%" alt="C++ Documentation"><p><a href="https://cymartinez.herokuapp.com/BlueVSPink/index.php" target="_blank"> <button class="demo-button">Demo</button></a></div>
+    
+    <div class="col-sm" >Convert hours to minutes and seconds.<p><p><img src="img/hours.png" width="100%" alt="Hours to Minutes/Seconds"><p><a href="https://codepen.io/cm_1/full/wvvmxMp" target="_blank"> <button class="demo-button">Demo</button></a></div>
+    
+  </div>
+</div>
+        
+       
+        <p><div class="circle" onclick="document.location='#contact'">
+            <i class="downarrow"></i>
+        </div> 
+           
+            </div>
+    </div>  <!---- Projects ends ------->
+
+      
+    
+ <div id="contact">
+      <div id="contact-title"><font color="#340972"><</font> Contact <font color="#340972">/></font></div><p>
+
+ <div class="container-form">
+
+      <!----
+      Form goes here. 
+
+          Note: Github static pages does not support PHP to send emails through forms. Using formspree.io to securely send emails. 
+        ------>
+
+  <form action="https://formspree.io/xqkabevy" method="POST">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Enter your name.">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email:</label>
+      </div>
+      <div class="col-75">
+        <input id="email" type="text" name="_replyto" placeholder="Enter a valid email address.">
+      </div>
+    </div>
+   
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="message">Message:</label>
+      </div>
+      <div class="col-75">
+        <textarea id="message" name="message" placeholder="Enter your message." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Send">
+    </div>
+  </form>
+</div>
+
+ </div>
+    
+    
+  </body>
+  
+  <div id="about-me">
 
 
 
+
+    <div class="about-container">
+      <div class="row">
+        <div class="col">
+          <h3>About Me:</h3><p>
+                    My name is Cynthia, and I am a passionate 
+                    Web Developer. It all started with graphic 
+                    design and moved forward  to coding.
+                    I graduated with my Bachelor of Science in
+                    Computer Science in 2019. Everyday I continue 
+                    to learn new things and master my skills. 
+                      I enjoy what I do!
+        </div>
+        <div class="col">
+           <h3>Find me on:</h3><p>
+                  <a href="https://www.github.com/cm00100/" target="_blank"> <img id="github" src="img/github.png" width="100px"alt="Github"></img> </a> 
+
+
+                  <a href="https://codepen.io/cm_1" target="_blank"> <img id="github" src="img/codepen.png" width="100px"alt="Github"></img> </a> 
+
+
+                  <a href="https://www.linkedin.com/in/cymartinez1/" target="_blank"> <img id="github" src="img/linkedin.png" width="100px"alt="Github"></img> </a> 
+
+
+                  <a href="https://www.behance.net/cynthia-martinez" target="_blank"> <img id="github" src="img/behance.png" width="100px"alt="Github"></img> </a> 
+        </div>
+      </div>
+  
+  </div>
+
+</div>
+    
+          
+    
+<!----
+      <div id="social-media">
+        <strong>Find me on:</strong><p>
+       <a href="https://www.github.com/cm00100/" target="_blank"> <img id="github" src="https://i.dlpng.com/static/png/3950834_preview.webp" width="100px"alt="Github"></img> </a> 
+
+
+      <a href="https://www.github.com/cm00100/" target="_blank"> <img id="github" src="https://i.dlpng.com/static/png/3950834_preview.webp" width="100px"alt="Github"></img> </a> 
+
+
+    <a href="https://www.github.com/cm00100/" target="_blank"> <img id="github" src="https://i.dlpng.com/static/png/3950834_preview.webp" width="100px"alt="Github"></img> </a> 
+
+
+    <a href="https://www.github.com/cm00100/" target="_blank"> <img id="github" src="https://i.dlpng.com/static/png/3950834_preview.webp" width="100px"alt="Github"></img> </a> 
+      </div>
+    </div>
+--->
+ 
+
+   <footer id="copyright"> © Designed & Developed by Cynthia Martinez 2019</footer>
+  
+
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
