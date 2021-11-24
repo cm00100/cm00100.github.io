@@ -14,8 +14,7 @@ keep_files:
 
 title: Cynthia Martinez
 subtitle: "Cynthia Martinez - Portfolio"
-url: "http://www.cynthiadev.com"
-baseurl: ""
+url: "http://cynthiadev.com"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
