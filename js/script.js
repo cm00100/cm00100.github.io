@@ -1,5 +1,5 @@
 var i = 0;
-var text ="Hello World! My name is Cynthia.";
+var text ="Hello World! My name is Cynthia. Web Developer & Digital Literacy Instructor";
 var speed = 50;
 
 
