@@ -14,6 +14,10 @@ gem "jekyll", "3.8.4"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 
+gem 'kramdown', '~> 1.14', '<= 2.3.1'
+
+# This line instructs Bundler to install a version of Kramdown that falls within the compatible range of 1.14 and 2.3.1.
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
