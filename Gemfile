@@ -9,12 +9,12 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.8.4"
+gem "jekyll", "4.3.2"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 
-gem 'kramdown', '~> 1.14', '<= 2.3.1'
+gem 'kramdown', '~> 2.4'
 
 # This line instructs Bundler to install a version of Kramdown that falls within the compatible range of 1.14 and 2.3.1.
 
